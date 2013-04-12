@@ -60,9 +60,6 @@ module.exports = (function (ObjectName) {
 
 ```
 
-
-
-
 ## LICENSE - "MIT License"
 
 Copyright (c) 2013-2012 Luciano Colosio (@unlucio)
