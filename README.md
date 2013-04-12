@@ -56,7 +56,6 @@ module.exports = (function (ObjectName) {
 	};
 
 	return ObjectName;
-
 }());
 
 ```
