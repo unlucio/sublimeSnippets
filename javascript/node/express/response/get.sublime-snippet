@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+get(${0:field})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>express.res.get</tabTrigger>
+	<scope>source.js</scope>
+	<description>ExpressJS: Get the case-insensitive response header field.</description>
+</snippet>

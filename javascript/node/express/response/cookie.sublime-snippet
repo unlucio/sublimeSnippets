@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+cookie(${1:name}, ${2:value}, ${3:[options]})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>express.res.cookie</tabTrigger>
+	<scope>source.js</scope>
+	<description>ExpressJS: Set cookie name to value, where which may be a string or object converted to JSON. The path option defaults to "/".</description>
+</snippet>

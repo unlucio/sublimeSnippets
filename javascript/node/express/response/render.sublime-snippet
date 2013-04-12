@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+render(${1:view}, ${2:[locals]}, ${3:callback})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>express.res.status</tabTrigger>
+	<scope>source.js</scope>
+	<description>ExpressJS: Render a view with a callback responding with the rendered string.</description>
+</snippet>

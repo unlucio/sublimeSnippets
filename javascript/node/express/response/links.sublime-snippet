@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+links(${1:linksMap})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>express.res.links</tabTrigger>
+	<scope>source.js</scope>
+	<description>ExpressJS:Join the given links to populate the "Link" response header field.</description>
+</snippet>

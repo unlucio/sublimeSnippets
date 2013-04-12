@@ -60,6 +60,110 @@ module.exports = (function (ObjectName) {
 }());
 ```
 
+__Express.js__
+* express.callback
+```javascript
+function (req, res, next) {
+	res.send("responseText");
+});
+```
+
+* express.errorCallback
+```javascript
+function (err, req, res, next) {
+	res.status(err.status || 404).end(err.message);
+}
+```
+* express.res.status
+```javascript
+status(statusCode)
+```
+* express.res.set
+```javascript
+set(field, [value])
+```
+
+* express.res.head
+```javascript
+header(field, [value])
+```
+
+* express.res.get
+```javascript
+get(field)
+```
+
+* express.res.cookie
+```javascript
+cookie(name, value, [options])
+```
+
+* express.res.clearCookie
+```javascript
+clearCookie(name, [options])
+```
+
+* express.res.redirect
+```javascript
+redirect([status], url)
+```
+
+* express.res.location
+```javascript
+location(location)
+```
+
+* express.res.charset
+```javascript
+charset = 'value';
+```
+
+* express.res.send
+```javascript
+send([body|status], [body])
+```
+
+* express.res.json
+```javascript
+res.json([status|body], [body])
+```
+
+* express.res.jsonp
+```javascript
+jsonp([status|body], [body])
+```
+
+* express.res.type
+```javascript
+type(type)
+```
+
+* express.res.format
+```javascript
+format(object)
+```
+
+* express.res.attachment
+```javascript
+attachment([filename])
+```
+
+* express.res.sendfile
+```javascript
+sendfile(path, [options], [callback])
+```
+
+* express.res.download
+```javascript
+download(path, [filename], [callback])
+```
+
+* express.res.links
+```javascript
+links(linksMap)
+```
+
+
 ## LICENSE - "MIT License"
 
 Copyright (c) 2013-2012 Luciano Colosio (@unlucio)
