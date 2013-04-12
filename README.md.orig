@@ -24,11 +24,27 @@ The "Packages" packages directory is located at:
 
 __General JS__
 * forin
+<<<<<<< HEAD
+```
+=======
 ```javascript
+>>>>>>> 812c60453260c5552df0a0078570b6add61a4680
 for(var indexName in object){
 	 // body...
 }
 ```
+<<<<<<< HEAD
+* jparse
+```
+JSON.parse(string, optinalReviver)
+```
+* jstring
+```
+JSON.stringify(object)
+```
+* stt
+```
+=======
 
 * jparse
 ```javascript
@@ -42,12 +58,17 @@ JSON.stringify(object)
 
 * stt
 ```javascript
+>>>>>>> 812c60453260c5552df0a0078570b6add61a4680
 var self = this;
 ```
 
 __Node.js__
 * node.object.class
+<<<<<<< HEAD
+```
+=======
 ```javascript
+>>>>>>> 812c60453260c5552df0a0078570b6add61a4680
 module.exports = (function (ObjectName) {
 	ObjectName = function(options) {
 		//constructor body
