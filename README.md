@@ -25,7 +25,8 @@ The "Packages" packages directory is located at:
 __General JS__
 * forin
 ```javascript
-for(var indexName in object){
+for(var indexName in map){
+	var object = map[indexName]
 	 // body...
 }
 ```

@@ -1,7 +1,8 @@
 <snippet>
 	<content><![CDATA[
-for(var ${1:indexName} in ${2:object}){
-	${3: // body...}
+for(var ${1:indexName} in ${2:map}){
+	var ${3:object} = ${2:map}[${1:indexName}]
+	${4: // body...}
 }
 
 ]]></content>
