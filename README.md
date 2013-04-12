@@ -24,10 +24,40 @@ The "Packages" packages directory is located at:
 
 __General JS__
 * `forin`
-```javascript
+```
 for(var indexName in object){
 	 // body...
 }
+```
+* `jparse`
+```
+JSON.parse(string, optinalReviver)
+```
+* `jstring`
+```
+JSON.stringify(object)
+```
+* `stt`
+```
+var self = this;
+```
+
+__Node.js__
+* `node.object.class`
+```
+module.exports = (function (ObjectName) {
+
+	ObjectName = function(options) {
+		//constructor body...
+	};
+
+	ObjectName.prototype.methodName = function(arguments) {
+	  //method body...
+	};
+
+	return ObjectName;
+
+}());
 ```
 
 
