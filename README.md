@@ -14,36 +14,36 @@ Just another set of snippeds for javascript and node.js
 
 The "Packages" packages directory is located at:
 
-* OS X:: ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+* OS X:: ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
 
-* Linux:: ~/.Sublime\ Text\ 2/Packages/
+* Linux:: ~/.Sublime\ Text\ 2/Packages/User/
 
-* Windows:: %APPDATA%/Sublime Text 2/Packages/
+* Windows:: %APPDATA%/Sublime Text 2/Packages/User/
 
 ## Usage: Avvailable snippets shortcuts:
 
 __General JS__
-* `forin`
+* forin
 ```
 for(var indexName in object){
 	 // body...
 }
 ```
-* `jparse`
+* jparse
 ```
 JSON.parse(string, optinalReviver)
 ```
-* `jstring`
+* jstring
 ```
 JSON.stringify(object)
 ```
-* `stt`
+* stt
 ```
 var self = this;
 ```
 
 __Node.js__
-* `node.object.class`
+* node.object.class
 ```
 module.exports = (function (ObjectName) {
 
