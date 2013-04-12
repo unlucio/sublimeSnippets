@@ -48,16 +48,17 @@ __Node.js__
 module.exports = (function (ObjectName) {
 
 	ObjectName = function(options) {
-		//constructor body...
+		//constructor body
 	};
 
 	ObjectName.prototype.methodName = function(arguments) {
-	  //method body...
+	  //method body
 	};
 
 	return ObjectName;
 
 }());
+
 ```
 
 
