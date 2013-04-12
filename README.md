@@ -23,41 +23,40 @@ The "Packages" packages directory is located at:
 ## Usage: Avvailable snippets shortcuts:
 
 __General JS__
-* `forin`
-```
+* forin
+```javascript
 for(var indexName in object){
 	 // body...
 }
 ```
-* `jparse`
-```
+
+* jparse
+```javascript
 JSON.parse(string, optinalReviver)
 ```
-* `jstring`
-```
+
+* jstring
+```javascript
 JSON.stringify(object)
 ```
-* `stt`
-```
+
+* stt
+```javascript
 var self = this;
 ```
 
 __Node.js__
-* `node.object.class`
-```
+* node.object.class
+```javascript
 module.exports = (function (ObjectName) {
-
 	ObjectName = function(options) {
 		//constructor body
 	};
-
 	ObjectName.prototype.methodName = function(arguments) {
 	  //method body
 	};
-
 	return ObjectName;
 }());
-
 ```
 
 ## LICENSE - "MIT License"
