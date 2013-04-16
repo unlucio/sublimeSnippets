@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+ifError(#{1:value})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>node.assert.ifError</tabTrigger>
+	<scope>source.js</scope>
+	<description>Node: Tests if value is not a false value, throws if it is a true value. Useful when testing the first argument, error in callbacks.</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+strictEqual(#{1:actual}, #{2:expected}, #3:{[message]})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>node.assert.strictEqual</tabTrigger>
+	<scope>source.js</scope>
+	<description>Node: Tests strict equality, as determined by the strict equality operator ( === ).</description>
+</snippet>

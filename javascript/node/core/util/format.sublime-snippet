@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+format(#{1:format}, #{2:[...]})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>node.util.format</tabTrigger>
+	<scope>source.js</scope>
+	<description>Node: Returns a formatted string using the first argument as a printf-like format.</description>
+</snippet>

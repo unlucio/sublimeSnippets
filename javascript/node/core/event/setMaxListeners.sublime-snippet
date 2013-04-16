@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+setMaxListeners(#{1:n})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>node.event.setMaxListeners</tabTrigger>
+	<scope>source.js</scope>
+	<description>Node: By default EventEmitters will print a warning if more than 10 listeners are added for a particular event. This is a useful default which helps finding memory leaks. Obviously not all Emitters should be limited to 10. This function allows that to be increased. Set to zero for unlimited.</description>
+</snippet>

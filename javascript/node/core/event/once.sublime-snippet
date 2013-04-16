@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+once(#{1:event}, #{2:listener})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>node.event.once</tabTrigger>
+	<scope>source.js</scope>
+	<description>Node: Adds a one time listener for the event. This listener is invoked only the next time the event is fired, after which it is removed.</description>
+</snippet>

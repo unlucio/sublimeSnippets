@@ -60,6 +60,45 @@ module.exports = (function (ObjectName) {
 }());
 ```
 
+* node.assert
+* node.assert.deepEqual
+* node.assert.doesNotThrow
+* node.assert.equal
+* node.assert.fail
+* node.assert.ifError
+* node.assert.notDeepEqual
+* node.assert.notEqual
+* node.assert.notStrictEqual
+* node.assert.ok
+* node.assert.strictEqual
+* node.assert.throws
+
+* node.event.addListener
+* node.event.emit
+* node.event.EventEmitter
+* node.event.listeners
+* node.event.listenerCount
+* node.event.on
+* node.event.once
+* node.event.removeAllListeners
+* node.event.removeListener
+* node.event.setMaxListeners
+
+* node.util
+* node.util.debug
+* node.util.puts
+* node.util.format
+* node.util.inherits
+* node.util.inspect
+* node.util.isArray
+* node.util.isError
+* node.util.isRegExp
+* node.util.log
+* node.util.print
+* node.util.debug
+* 
+
+
 __Express.js__
 * express.callback
 ```javascript

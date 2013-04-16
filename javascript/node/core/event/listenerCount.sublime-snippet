@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+listenerCount(#{1:emitter}, #{2:event})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>node.event.listenerCount</tabTrigger>
+	<scope>source.js</scope>
+	<description>Node: Return the number of listeners for a given event.</description>
+</snippet>

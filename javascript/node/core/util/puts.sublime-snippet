@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+debug(#{1:[...]})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>node.util.debug</tabTrigger>
+	<scope>source.js</scope>
+	<description>Node: A synchronous output function. Will block the process and output string immediately to stderr.</description>
+</snippet>
